@@ -1,0 +1,15 @@
+body{
+width: 95%;
+margin: 0 auto;
+display: block;
+}
+
+.busca {
+    margin:10px 0;
+    display:block;
+    width:100%;
+}
+
+.btnBusca {
+margin:3px auto; width:100%
+}
