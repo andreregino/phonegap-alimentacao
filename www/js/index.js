@@ -546,6 +546,7 @@ var app = {
                document.getElementById('resultado').innerHTML += results[a].name + '\n<br/>';
            }
         }
+
         document.getElementById('btnBusca').onclick = getEstabelecimento;
 
 

@@ -43,17 +43,23 @@
 </head>
 
 <body>
-    <div class="search" style="margin: 0 auto; width: 90%; display:block">
-        <input type="text" id="busca" class="busca" placeholder="Buscar"/>
+    <div class="header">
+        <i class="glyphicon glyphicon-cutlery"></i>
+        <h3 class="title">Ticket Alimentação</h3>
+    </div>
+
+    <div class="search">
+        <input type="text" id="busca" class="busca" placeholder="Pesquise por estabelecimento"/>
+        <i class="glyphicon glyphicon-search"></i>
         <input type="button" id="btnBusca" class="btn btn-success btnBusca" value="Buscar">
     </div>
     <div class="results">
-        <h1>Resultado da Busca</h1>
+        <h4>Resultado da Busca</h4>
         <p id="resultado"></p>
     </div>
 
     <script type="text/javascript" src="cordova.js"></script>
-    <script  type="text/javascript" src="js/estabelecimentos.json"></script>
+    <script type="text/javascript" src="js/estabelecimentos.json"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();

@@ -4,12 +4,62 @@ margin: 0 auto;
 display: block;
 }
 
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 90%
+}
+.header h3.title {
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.header .glyphicon-cutlery {
+    color: #5cb85c;
+    font-size: 6em;
+    text-align: center;
+    position: relative;
+    margin: 10px auto;
+    display: block;
+}
+
+.search {
+    margin: 0 auto;
+    width: 90%;
+    display:block;
+}
 .busca {
     margin:10px 0;
     display:block;
     width:100%;
+    box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.1);
+    background: #ffffff;
+    border: 1px solid #DCDCD6;
+    color: #888;
+    height: 45px;
+    padding-left: 40px;
 }
 
 .btnBusca {
 margin:3px auto; width:100%
 }
+
+.results h4 {
+    text-align: center;
+    margin-top: 50px
+}
+.results p {
+    margin: 20px auto;
+    width: 90%;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+.search .glyphicon-search {
+    position: absolute;
+    top: 183px;
+    left: 37px;
+
+}
+
